@@ -1,0 +1,60 @@
+*{
+  font-family: 'Baloo 2', cursive;
+}
+body {
+  background-color: lightcyan;
+}
+.logo {
+  display: block;
+  margin-top: -55px;
+  margin-bot: -55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#title {
+  text-align: center;
+  font-size: 65px;
+  font-weight: 900;
+  margin-top: -35px;
+}
+p {
+  text-align: center;
+  font-size: 40px;
+  padding-top: -30px;
+}
+#fieldset {
+  width: 150px;
+  margin: auto;
+}
+#name-label {
+  text-align: center;
+  background-color:
+}
+#email-label {
+  text-align: center;
+}
+form {
+  text-align: center;
+}
+.training, .feeling, .home-equipment, .items-at-home, .your-opinion {
+  font-size: 24px;
+}
+#number-label {
+  text-align: center;
+}
+.forms {
+  column-count: 3;
+  column-rule-style: solid;
+}
+.months, .fit, .equipment, .equipment_1, .opinion {
+  margin-top: 20px;
+}
+#submit, .opinion, .equipment_1 {
+  text-align: center;
+}
+select {
+  text-align-last: center;
+}
+textarea {
+  text-align: center;
+}

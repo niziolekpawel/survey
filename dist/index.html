@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Freecode Project - Forms</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <body>
+    <head>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <title>Survey form</title>
+      <img class="logo" src="https://zenplanner-library.s3.amazonaws.com/63CCF2FE-C4F3-4EA6-E71D-91B6100468E4/Portal+Images/mobile-crossfit-guerriers-zenplanner.png" alt="CrossFit logo">      
+    <h1 id="title">Survey form
+      </h1>
+  </head>
+    <section>
+      <p id="description">What do you think about CrossFit Guerriers "HomeWod" programming?
+      </p>
+     <form action="submission.html" method="POST" id="survey-form">
+       <fieldset id="fieldset">
+         <legend id="personal_info">Personal info</legend>
+       <label for="name-label">Name:</label>
+       <input type="text" name="name-label" id="name-label" minlength="5" placeholder="Enter your name" required>
+       <label for="email-label">Email:</label>
+       <input type="email" name="email-label" id="email-label" placeholder="Enter your email" required>
+       </fieldset>
+       <div class="months">
+       <label for="number-label" class="training">How long are you training with CrossFit Guerriers?</label><br>
+       <input type="number" name="number-label" id="number-label" placeholder="Months" pattern="[0-9]" step="1" min="1" max="120">
+       </div>
+      <section>
+        <div class="fit">
+        <label for="dropdown" class="feeling">Which option best describes your current "fit" feeling?</label><br>
+          <select id="dropdown" name="dropdown">
+            <option value="I'm in the perfect shape" id="drop-down">I'm in the perfect shape</option>
+            <option value="There is still that I can improve">There's still that I can improve</option>
+            <option value="I'm in bad shape now">I'm in a bad shape now</option>
+          </select>
+          </div>
+       </section>
+       <div class="equipment">
+         <span class="home-equipment">Do you have any gym equipment at home?</span><br>
+         <input type="radio" name="borrowed-equipment" id="yes" value="yes">Yes</input>
+         <label for="borrowed-equipment" class="yes"></label>
+       <input type="radio" name="borrowed-equipment" id="no" value="no">No</input>
+         <label for="borrowed-equipment" class="no"></label>
+       </div>
+      </section>
+      <section>
+        <div class="equipment_1">
+        <span class="items-at-home">Thick any of listed items you have at home:</span><br>
+          <form class="forms">
+        <input type="checkbox" name="equipment" id="equipment" value="dumbbell">
+        <label for="equipment">Dumbbell (only 1)</label>
+        <input type="checkbox" name="equipment" id="equipment" value="dumbbell2">
+        <label for="equipment">Dumbbell (x2)</label>
+        <input type="checkbox" name="equipment" id="equipment" value="kettle">
+        <label for="equipment">Kettle</label><br>
+        <input type="checkbox" name="equipment" id="equipment" value="jumping rope">
+        <label for="equipment">Jumping rope</label>
+        <input type="checkbox" name="equipment" id="equipment" value="medball">
+        <label for="equipment">Medball</label>
+        <input type="checkbox" name="equipment" id="equipment" value="abmat">
+        <label for="equipment">AbMat</label>
+          </form>
+           </div>
+          </section>
+      <div class="opinion">
+     <section>
+       <label for="extra" name="extra" class="your-opinion">Please tell us what do you think about "HomeWod" programming?</label><br>
+        <textarea id="extra" rows="3" cols="40" placeholder="Please, add here your comment."></textarea>
+      </section>
+      </div>
+      <section id="submit">
+        <input type="submit" id="submit" value="Submit">
+      </section>
+      </form>
+  </body>
+  </html>
+<!-- partial -->
+  
+</body>
+</html>
